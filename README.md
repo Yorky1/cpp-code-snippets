@@ -1,2 +1,37 @@
 # cpp-code-snippets
-Cpp code snippets from my homeworks
+
+Cpp code snippets from different courses in university.
+
+## Data structures
+
+- [copy-on-write vector](data_structures/cow_vector.h)
+- [deque](data_structures/deque.h)
+- [intrusive_list](data_structures/intrusive_list.h)
+- [Matrix](data_structures/matrix.h) (implementation of matrix class with optimized multipication)
+- [Hash-map](https://github.com/Yorky1/HashMap)
+  
+## Smart pointers
+
+- [Unique-ptr](smart_pointers/unique.h)
+- [Shared-ptr](smart_pointers/shared.h)
+- [Weak-ptr](smart_pointers/weak.h)
+  
+## Functions and operators
+
+- [Defer](functions/defer.h) (implementation of defer operator from go language)
+- [BindFront](functions/bind_front.h)
+- [Implementation of simple functions working with constexpr calculations](functions/stdflib.h)
+
+## Threads
+
+- [Semaphore](threads/sema.h)
+- [RW-lock](threads/rw_lock.h)
+- [RW_spinlock](threads/rw_spinlock)
+- [Buffered_channel](threads/buffered_channel.h)
+- [Unbuffered_channel](threads/unbuffered_channel.h)
+- [Multiple Producer Single Consumer lock free stack](threads/mpsc_stack.h)
+  
+## Coroutines
+
+- [Coroutine](coroutines/coroutine.h) (implementation of coroutine class in cpp using '''cpp boost::context::continuation''')
+- [Generator](coroutines/generator.h)
