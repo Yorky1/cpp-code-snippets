@@ -19,7 +19,7 @@ Cpp code snippets from different courses in university.
 ## Functions and operators
 
 - [Defer](functions/defer.h) (implementation of defer operator from go language)
-- [BindFront](functions/bind_front.h)
+- [BindFront](functions/bind_front.h) (implementation of `std::bind_front`)
 - [Implementation of simple functions working with constexpr calculations](functions/stdflib.h)
 
 ## Threads
@@ -33,5 +33,5 @@ Cpp code snippets from different courses in university.
   
 ## Coroutines
 
-- [Coroutine](coroutines/coroutine.h) (implementation of coroutine class in cpp using '''cpp boost::context::continuation''')
+- [Coroutine](coroutines/coroutine.h) (implementation of coroutine class in cpp using `boost::context::continuation`)
 - [Generator](coroutines/generator.h)
