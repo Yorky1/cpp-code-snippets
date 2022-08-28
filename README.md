@@ -6,9 +6,9 @@ Cpp code snippets from different courses in university.
 
 - [copy-on-write vector](data_structures/cow_vector.h)
 - [deque](data_structures/deque.h)
-- [intrusive_list](data_structures/intrusive_list.h)
+- [intrusive list](data_structures/intrusive_list.h)
 - [Matrix](data_structures/matrix.h) (implementation of matrix class with optimized multipication)
-- [Hash-map](https://github.com/Yorky1/HashMap)
+- [Hashmap](https://github.com/Yorky1/HashMap)
   
 ## Smart pointers
 
@@ -26,9 +26,9 @@ Cpp code snippets from different courses in university.
 
 - [Semaphore](threads/sema.h)
 - [RW-lock](threads/rw_lock.h)
-- [RW_spinlock](threads/rw_spinlock)
-- [Buffered_channel](threads/buffered_channel.h)
-- [Unbuffered_channel](threads/unbuffered_channel.h)
+- [RW-spinlock](threads/rw_spinlock)
+- [Buffered channel](threads/buffered_channel.h)
+- [Unbuffered channel](threads/unbuffered_channel.h)
 - [Multiple Producer Single Consumer lock free stack](threads/mpsc_stack.h)
   
 ## Coroutines
